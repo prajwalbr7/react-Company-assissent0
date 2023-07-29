@@ -1,0 +1,75 @@
+.SignMainContainer {
+  height: 100vh;
+  background-image: url('https://t3.ftcdn.net/jpg/04/17/77/78/240_F_417777825_v7o8RvkQhxpZkE0ZBD4xwzri5hGFHkO3.jpg');
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.form-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+
+  color: white;
+}
+
+.form-Container {
+  width: 400px;
+  padding: 30px;
+  text-align: center;
+}
+.Form-Submit-container {
+  display: flex;
+  flex-direction: column;
+}
+.label-style-Sign {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: antiquewhite;
+  text-align: left;
+}
+.input-style-signin {
+  height: 30px;
+  border-width: 1px;
+  border-radius: 4px;
+  padding-left: 5px;
+  outline: none;
+}
+.margin-botton-signIn {
+  margin-bottom: 15px;
+}
+.para-signIn {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: antiquewhite;
+  text-align: center;
+}
+.span-signIn {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: antiquewhite;
+  cursor: pointer;
+}
+.button-sign-style {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  width: 120px;
+  border-width: 0px;
+  background-color: blanchedalmond;
+  border-radius: 3px;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+}
+.error-message-style {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(240, 201, 149);
+}
